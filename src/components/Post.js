@@ -18,7 +18,7 @@ import {colors} from "@mui/material";
 const Post = ({ post, onLike, onComment, onStar }) => {
     const navigate = useNavigate();
     const handleCommentClick = () => {
-        navigate('/MapComponent');
+        navigate('/Irrigation');
     };
     const [openModal, setOpenModal] = useState(false);
     const [selectedImage, setSelectedImage] = useState(null);

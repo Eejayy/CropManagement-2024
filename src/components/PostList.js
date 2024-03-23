@@ -29,7 +29,9 @@ import veg5 from '../images/veg5.jpg';
 function PostList() {
     const navigate = useNavigate();
     const handleAddClick = () => {
-        navigate('/AddNewPost');
+        // navigate('/AddNewPost');
+        navigate('/MarketStore');
+
     }
 
     const [searchValue, setSearchValue] = useState('');

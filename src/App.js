@@ -18,7 +18,8 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import PostList from './components/PostList';
 import AddNewPost from './components/AddNewPost';
 import SearchPostList from './components/SearchPostList';
-import MapComponent from './components/MapComponent'
+import Irrigation from './components/Irrigation'
+import MarketStore from './components/MarketStore';
 function App() {
     return (
         <BrowserRouter>
@@ -26,7 +27,8 @@ function App() {
                 <Route path="/" element={<PostList />} />
                 <Route path="/AddNewPost" element={<AddNewPost />} />
                 <Route path="/SearchPostList" element={<SearchPostList />} />
-                <Route path="/MapComponent" element={<MapComponent />} /> {/* Correct path */}
+                <Route path="/Irrigation" element={<Irrigation />} /> {/* Correct path */}
+                <Route path="/MarketStore" element={<MarketStore />} />
             </Routes>
         </BrowserRouter>
     );
